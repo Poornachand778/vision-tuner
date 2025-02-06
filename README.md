@@ -29,6 +29,6 @@ A real-time tunable OpenCV pipeline for lane detection (or general vision tasks)
     ```bash
     python src/image_processor.py --config config/params.yaml
 
-   For Video:
+4. For Video:
     ```bash
     python src/video_processor.py
