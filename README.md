@@ -20,15 +20,15 @@ A real-time tunable OpenCV pipeline for lane detection (or general vision tasks)
    cd vision-tuner
 
 2. Installing requirements:
-    '''bash
+    ```bash
     pip install -r requirements.txt
 
 
 
 3. For Images :
-    '''bash
+    ```bash
     python src/image_processor.py --config config/params.yaml
 
    For Video:
-    '''bash
+    ```bash
     python src/video_processor.py
