@@ -1,0 +1,18 @@
+# Canny Edge Detector
+canny:
+  threshold1: 50
+  threshold2: 150
+  blur_kernel: 5  # New parameter for robustness
+
+# Hough Line Detector
+hough:
+  rho: 1
+  theta: 180      # Degrees (converted to radians in code)
+  threshold: 50
+  min_line_length: 50
+  max_line_gap: 20
+
+# General Settings
+input:
+  source_type: "webcam"  # "image", "video", or "webcam"
+  path: "examples/test_image.jpg"  # Used if source_type=image/video
